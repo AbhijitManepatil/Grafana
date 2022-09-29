@@ -1,0 +1,15 @@
+
+SELECT
+  NOW() as time_sec,
+  Marks AS metric, 
+  customerName as value  
+FROM student.customer
+ORDER BY customerID
+
+
+SELECT
+  NOW() as time_sec, # time is compulsory in grafna So, Customised time query is defined
+  Marks AS metric,   # Y - Axis
+  customerName as value  # X- Axis
+FROM student.customer # DatabaseName.Table Name
+ORDER BY customerID   # Condition
