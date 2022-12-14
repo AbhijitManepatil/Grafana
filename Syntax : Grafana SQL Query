@@ -12,4 +12,4 @@ SELECT
   Marks AS metric,   # Y - Axis
   customerName as value  # X- Axis
 FROM student.customer # DatabaseName.Table Name
-ORDER BY customerID   # Condition
+ORDER BY customerID   # Condition.
